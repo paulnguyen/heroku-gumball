@@ -47,11 +47,11 @@ var DB = require('mongodb').Db,
     async = require('async') ;
 
 
-var db_host = "ds241668.mlab.com" ;
-var db_port = "41668" ;
+var db_host = "ds249605.mlab.com" ;
+var db_port = "49605" ;
 var db_user = "cmpe281" ;
 var db_pwd  = "cmpe281" ;
-var db_name = "gumball" ;
+var db_name = "heroku_739cqbl5" ;
 
 /*
 var db_host = (process.env.mongodb_host || "localhost" ) ;
