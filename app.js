@@ -62,6 +62,8 @@ var db_name = (process.env.mongodb_name || "test" ) ;
 */ 
 
 
+
+
 var db = new DB(db_name,
                 new DB_Server( db_host, db_port,
                             { auto_reconnect: true,
