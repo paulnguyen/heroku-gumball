@@ -16,6 +16,7 @@
     "express3-handlebars": "0.5.2",
     "fs": "0.0.2",
     "node-rest-client": "1.4.1",
+    "connect": "2.x",
     "crypto": "0.0.3"
   }
 }
