@@ -44,3 +44,9 @@ heroku-apps:
 
 heroku-tail:
 	heroku logs --tail --app pnguyen-gumball
+	
+api-test-post:
+	curl -X POST https://nodejs-paulnguyen.c9users.io/gumball
+
+api-test-get:
+	curl -X GET https://nodejs-paulnguyen.c9users.io/gumball/$(ord)
